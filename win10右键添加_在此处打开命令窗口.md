@@ -45,6 +45,6 @@ Windows Registry Editor Version 5.00
 @="cmd.exe /s /k pushd \"%V\""
 ```
 
-第三步： 将txt文件后缀名更改为 reg
-第四步： 双击OpenCmdHere.reg文件运行
-至此，就已经添加好啦
+第三步： 将txt文件后缀名更改为 reg  
+第四步： 双击OpenCmdHere.reg文件运行  
+至此，就已经添加好啦   
