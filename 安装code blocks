@@ -1,0 +1,11 @@
+# 安装code blocks
+
+## CodeBlocks的安装及使用
+下载并安装CodeBlocks
+
+1. 直接输入网址 http://www.codeblocks.org /进入CodeBlocks官网.
+2. 进入下载Downloads下载页面， 一般使用的话，选择二进制版本即可，Download the binary release
+3.  选择合适的版本，这里我下载的是适用于windows的带编译器等工具的版本，也是大家最常用的版本. 带mingw的为带编译器的版本，建议大家下这个，安装完成就可直接使用,例如codeblocks-20.03mingw-setup.exe).
+4. 然后下载即可.
+5. 执行安装程序，进行安装，路径尽量不要安装在默认的C:\Program Files中,  如： D:\CodeBlocks, 一路next默认安装即可.
+6. 安装完成后，就可以使用，但发现编译一个console application程序，在code blocks中可以编译，运行，但是执行程序在资源管理器中执行时报错，这时候要把MinGW编译器的路径写入到系统的环境变量的path中，增加一行D:\CodeBlocks\MinGW\bin,即可解决问题.
